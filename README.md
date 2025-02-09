@@ -1,11 +1,12 @@
-# TikTok Video Downloader 🚀
+# TikTok Video Downloader Without Watermark🚀
 
-This project is a **GUI-based TikTok video downloader** that allows users to search and download TikTok videos effortlessly.
+This project is a **GUI-based TikTok video downloader** that allows users to search and download TikTok videos effortlessly, **without watermarks**.
 
 ---
 ## 🎯 Features
 
 ✅ **Search & Download:** Easily search and download TikTok videos.  
+✅ **Watermark-Free Downloads:** Download TikTok videos without watermarks.  
 ✅ **Modern UI:** Built with CustomTkinter for a sleek, user-friendly experience.  
 ✅ **Progress Bar:** Tracks download progress in real-time.  
 ✅ **No Duplicate Downloads:** Ensures that the same video is not downloaded multiple times.  
@@ -52,7 +53,7 @@ pyinstaller --noconsole --onefile --windowed --icon=tiktok_logo.ico tiktok_downl
 3. Select the **Latest** or **Popular** category.
 4. Click **Download Videos** and track progress.
 
-The downloaded videos will be saved in the `downloads/` folder.
+The downloaded videos will be saved in the `downloads/` folder, free of watermarks.
 
 ---
 ## 🔥 Contribution
