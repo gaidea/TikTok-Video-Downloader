@@ -17,10 +17,10 @@ ctk.set_default_color_theme("blue")
 root = ctk.CTk()
 root.geometry("500x550")
 root.title("TikTok Video Downloader")
-root.resizable(False, False) 
-root.attributes("-alpha", 0.95) 
-root.overrideredirect(True) 
-root.configure(bg="black") 
+root.resizable(False, False)
+root.attributes("-alpha", 0.95)
+root.overrideredirect(True)
+root.configure(bg="black")
 
 def start_move(event):
     root.x = event.x
@@ -39,13 +39,13 @@ root.bind("<ButtonPress-1>", start_move)
 root.bind("<ButtonRelease-1>", stop_move)
 root.bind("<B1-Motion>", do_move)
 
-background_path = ".."
+background_path = "https://raw.githubusercontent.com/gaidea/TikTok-Video-Downloader/refs/heads/main/tiktok_logo.ico"
 if os.path.exists(background_path):
     bg_image = Image.open(background_path)
-    bg_image = bg_image.resize((120, 120), Image.Resampling.LANCZOS) 
+    bg_image = bg_image.resize((120, 120), Image.Resampling.LANCZOS)
     bg_photo = ImageTk.PhotoImage(bg_image)
     bg_label = ctk.CTkLabel(root, image=bg_photo, text="")
-    bg_label.place(relx=0.5, rely=0.15, anchor="center") 
+    bg_label.place(relx=0.5, rely=0.15, anchor="center")
 
 def close_app():
     root.destroy()
