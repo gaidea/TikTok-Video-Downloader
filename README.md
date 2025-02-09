@@ -12,3 +12,5 @@ This project allows you to easily search and download TikTok videos.
 1. Install dependencies:  
    ```sh
    pip install -r requirements.txt
+   
+   https://ibb.co/4w9BFg2H
