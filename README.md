@@ -1,5 +1,6 @@
 # TikTok Video Downloader 🚀
-![TikTok Downloader]([https://raw.githubusercontent.com/gaidea/TikTok-Video-Downloader/main/resim.png](https://github.com/gaidea/TikTok-Video-Downloader/blob/main/Tiktok.PNG?raw=true))
+![TikTok Downloader](https://github.com/gaidea/TikTok-Video-Downloader/blob/main/Tiktok.PNG?raw=true)
+
 
 
 This project allows you to easily search and download TikTok videos.
